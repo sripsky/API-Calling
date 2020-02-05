@@ -15,6 +15,7 @@
 		A431A64723E8873200EF6D21 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A431A64523E8873200EF6D21 /* LaunchScreen.storyboard */; };
 		A431A65223E8873200EF6D21 /* API_CallingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A431A65123E8873200EF6D21 /* API_CallingTests.swift */; };
 		A431A65D23E8873200EF6D21 /* API_CallingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A431A65C23E8873200EF6D21 /* API_CallingUITests.swift */; };
+		A431A68523E9D4F700EF6D21 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = A431A68423E9D4F700EF6D21 /* SwiftyJSON.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		A431A65823E8873200EF6D21 /* API CallingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "API CallingUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A431A65C23E8873200EF6D21 /* API_CallingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API_CallingUITests.swift; sourceTree = "<group>"; };
 		A431A65E23E8873200EF6D21 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A431A68423E9D4F700EF6D21 /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				A431A64323E8873200EF6D21 /* Assets.xcassets */,
 				A431A64523E8873200EF6D21 /* LaunchScreen.storyboard */,
 				A431A64823E8873200EF6D21 /* Info.plist */,
+				A431A68423E9D4F700EF6D21 /* SwiftyJSON.swift */,
 			);
 			path = "API Calling";
 			sourceTree = "<group>";
@@ -262,6 +265,7 @@
 				A431A63F23E8872F00EF6D21 /* SourcesViewController.swift in Sources */,
 				A431A63B23E8872F00EF6D21 /* AppDelegate.swift in Sources */,
 				A431A63D23E8872F00EF6D21 /* SceneDelegate.swift in Sources */,
+				A431A68523E9D4F700EF6D21 /* SwiftyJSON.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

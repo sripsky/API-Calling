@@ -9,10 +9,12 @@
 import UIKit
 
 class SourcesViewController: UITableViewController {
-
+     var sources = [[String: String]]()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        self.title = "Star Wars Starships"
+        let query = "https://swapi.co/api/starships/schema"
     }
 
 
