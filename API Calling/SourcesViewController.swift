@@ -15,14 +15,20 @@ class SourcesViewController: UITableViewController {
         super.viewDidLoad()
         self.title = "datas"
         let query = "https://www.balldontlie.io/api/v1/players"
+        DispatchQueue.global(qos: .userInitiated).async {
+                   [unowned self] in
+               
         if let url = URL(string: query) {
              if let data = try? Data(contentsOf: url) {
                 let json = try! JSON(data: data)
-                   parse(json: json)
+                self.parse(json: json)
                    return
                 }
-          }
-          loadError()
+            }
+          
+        self.loadError()
+        }
+    
     }
     func parse(json: JSON) {
         for result in json["data"].arrayValue {
@@ -34,14 +40,20 @@ class SourcesViewController: UITableViewController {
             datas.append(data)
         }
         tableView.reloadData()
+        DispatchQueue.global(qos: .userInitiated).async {
+            [unowned self] in self.tableView.reloadData()
+        }
+    
     }
     func loadError() {
+        DispatchQueue.main.async {
+            [unowned self] in
          let alert = UIAlertController(title: "Loading Error",
                                      message: "There was a problem loading the news feed",
                               preferredStyle: .actionSheet)
          alert.addAction(UIAlertAction(title: "OK", style: .default, handler: nil))
-         present(alert, animated: true, completion: nil) }
-
+        self.present(alert, animated: true, completion: nil) }
+    }
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return datas.count
     }
