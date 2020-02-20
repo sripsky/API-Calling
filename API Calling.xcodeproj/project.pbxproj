@@ -16,6 +16,7 @@
 		A431A65223E8873200EF6D21 /* API_CallingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A431A65123E8873200EF6D21 /* API_CallingTests.swift */; };
 		A431A65D23E8873200EF6D21 /* API_CallingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A431A65C23E8873200EF6D21 /* API_CallingUITests.swift */; };
 		A431A68523E9D4F700EF6D21 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = A431A68423E9D4F700EF6D21 /* SwiftyJSON.swift */; };
+		A431A68B23F5AEEC00EF6D21 /* PlayersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A431A68A23F5AEEC00EF6D21 /* PlayersViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		A431A65C23E8873200EF6D21 /* API_CallingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API_CallingUITests.swift; sourceTree = "<group>"; };
 		A431A65E23E8873200EF6D21 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A431A68423E9D4F700EF6D21 /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
+		A431A68A23F5AEEC00EF6D21 /* PlayersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayersViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +106,7 @@
 				A431A63A23E8872F00EF6D21 /* AppDelegate.swift */,
 				A431A63C23E8872F00EF6D21 /* SceneDelegate.swift */,
 				A431A63E23E8872F00EF6D21 /* SourcesViewController.swift */,
+				A431A68A23F5AEEC00EF6D21 /* PlayersViewController.swift */,
 				A431A64023E8872F00EF6D21 /* Main.storyboard */,
 				A431A64323E8873200EF6D21 /* Assets.xcassets */,
 				A431A64523E8873200EF6D21 /* LaunchScreen.storyboard */,
@@ -265,6 +268,7 @@
 				A431A63F23E8872F00EF6D21 /* SourcesViewController.swift in Sources */,
 				A431A63B23E8872F00EF6D21 /* AppDelegate.swift in Sources */,
 				A431A63D23E8872F00EF6D21 /* SceneDelegate.swift in Sources */,
+				A431A68B23F5AEEC00EF6D21 /* PlayersViewController.swift in Sources */,
 				A431A68523E9D4F700EF6D21 /* SwiftyJSON.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
